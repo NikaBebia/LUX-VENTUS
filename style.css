@@ -8,6 +8,371 @@
 body {
   font-family: 'Poppins', sans-serif;
   max-width: 1440px;
+  margin: 0 auto;
+}
+
+.topics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1274px;
+}
+
+.topics h1 {
+  align-self: flex-start;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 32px;
+  line-height: 100%;
+  margin-bottom: 48px;
+}
+
+.topicscards {
+  display: flex;
+  gap: 10px;
+}
+
+.topiccard {
+  width: 204px;
+  height: 291px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.topiccard p {
+  font-family: 'Poppins', sans-serif ;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 29px;
+
+}
+
+.topicspic1 {
+  padding: 51px 58px 20px 58px;
+}
+
+.topicspic2 {
+  padding: 51px 50px 5px 51px;
+}
+
+.topicspic3 {
+  padding: 41px 52px 18px 52px;
+}
+
+.topicspic4 {
+  padding: 43px 58px 27px 57px;
+}
+
+.topicspic5 {
+  padding: 46px 59px 27px 59px;
+}
+
+.topicspic6 {
+  padding: 33px 51px 24px 51px;
+}
+
+.topicsbutton {
+  font-family: 'Poppins', sans-serif ;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 12px;
+  text-align: center;
+  width: 143px;
+  height: 35px;
+  border-radius: 40px;
+  margin-left: 30px;
+  background-color: #4CE0D7;
+  border: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.topicsbutton:hover {
+  background-color: #3cc4bc;
+}
+
+.topicsline {
+  height: 1px;               
+  background-color: #BCBCBC; 
+  margin: 87px 0px 42px 0px;             
+  width: 100%;
+}
+
+.fashion  {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 1204px;
+  height: 698px;
+  box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  margin-bottom: 97px;
+}
+
+.topside {
+  width: 1204px;
+  height: 360px;
+  box-sizing: border-box;
+  background-image: url('images nikab/for topics/Mask group.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topside button {
+  width: 233px;
+  height: 36px;
+  margin: 23px 0px 0px 47px;
+  border-radius: 40px;
+  border: none;
+  background-color: #262626;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 12px;
+  line-height: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.topside button:hover {
+  background-color: #404040;
+}
+
+.bottomside {
+  height: 338px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 23px;
+}
+
+.fashionauthor {
+  display: flex;
+  align-items: center;
+  padding-left: 64px;
+  margin-bottom: 29px;
+}
+
+.fashionauthor img {
+  width: 65px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.fashionauthor p {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 100%;
+  color: #BCBCBC;
+}
+
+.fashionauthor p:first-of-type {
+  width: 168px;
+  height: 21px;
+  margin: 0px 49px 0px 21px;
+}
+
+.fashionauthor a {
+  margin-left: auto;
+  padding-right: 64px;
+  text-decoration: none;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 24%;
+  color: #F25E5E;
+}
+
+.fashiondescription h2 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 26px;
+  line-height: 100%;
+  margin: 0px 0px 23px 64px;
+}
+
+.fashiondescription p {
+  width: 1033px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #262626;
+  margin: 0px 0px 40px 64px;
+}
+
+.fashiondescription a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 51px;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 24%;
+  color: #4CE0D7;
+  padding-bottom: 38px;
+}
+
+.fashiondescription a:hover {
+  color: #3cc4bc;  
+}
+
+.fashiondescription img {
+  margin-right: 6px;
+}
+
+.trending {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1274px;
+}
+
+.trendingtitle {
+  align-self: flex-start;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 32px;
+  line-height: 100%;
+  padding-left: 40px;
+  margin-bottom: 55px;
+}
+
+.trendingcards {
+  display: flex;
+  align-items: center;
+  gap: 59px;
+  margin-bottom: 88px;
+}
+
+.trendingcard {
+  display: flex;
+  flex-direction: column;
+  width: 579px;
+  height: 670px;
+  border-radius: 20px;
+  box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+.trendingbtn {
+  position: absolute;
+  margin: 20px 0px 0px 34px;
+  width: 175px;
+  height: 36px;
+  border-radius: 40px;
+  border: none;
+  background-color: #262626;
+  /* font-family: Poppins; */
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 12px;
+  line-height: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.trendingbtn:hover {
+  background-color: #404040;
+}
+
+.trendingimg {
+  width: 579px;
+  height: 278 px;
+  border-radius: 20px;
+  margin-bottom: 23px;
+}
+
+.trendingauthor {
+  display: flex;
+  align-items: center;
+  padding-left: 26px;
+  margin-bottom: 29px;
+}
+
+.trendingauthor img {
+  width: 65px;
+  height: 50px;
+  border-radius: 50%;  
+}
+
+.trendingauthor p {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 100%;
+  color: #BCBCBC;
+}
+
+.trendingauthor p:first-of-type {
+  width: 168px;
+  height: 21px;
+  margin: 0px 83px 0px 28px;
+}
+
+.trendingdescription {
+  display: flex;
+  flex-direction: column;
+}
+
+.trendingdescription h2 {
+  width: 471px;
+  height: 94px;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 26px;
+  line-height: 1.5;
+  margin-left: 34px;
+}
+
+.trendingdescription p {
+  width: 464px;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0px 0px 30px 35px;
+}
+
+.trendingdescription a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 51px;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 24%;
+  color: #4CE0D7;
+  padding-bottom: 38px;
+}
+
+.trendingdescription a:hover {
+  color: #3cc4bc;
+}
+
+.trendingdescription img {
+  margin-right: 6px;
+}
+
   margin: o auto;
   background-color: #ffffff;
 }
