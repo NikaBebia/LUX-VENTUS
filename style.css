@@ -91,7 +91,12 @@ body {
   margin-left: 30px;
   background-color: #4CE0D7;
   border: none;
-  
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.topicsbutton:hover {
+  background-color: #3cc4bc;
 }
 
 .topicsline {
@@ -135,6 +140,12 @@ body {
   line-height: 100%;
   text-align: center;
   color: #FFFFFF;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.topside button:hover {
+  background-color: #404040;
 }
 
 .bottomside {
@@ -216,6 +227,10 @@ body {
   padding-bottom: 38px;
 }
 
+.fashiondescription a:hover {
+  color: #3cc4bc;  
+}
+
 .fashiondescription img {
   margin-right: 6px;
 }
@@ -250,6 +265,7 @@ body {
   flex-direction: column;
   width: 579px;
   height: 670px;
+  border-radius: 20px;
   box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
 }
@@ -269,6 +285,12 @@ body {
   line-height: 100%;
   text-align: center;
   color: #FFFFFF;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.trendingbtn:hover {
+  background-color: #404040;
 }
 
 .trendingimg {
@@ -341,6 +363,10 @@ body {
   letter-spacing: 24%;
   color: #4CE0D7;
   padding-bottom: 38px;
+}
+
+.trendingdescription a:hover {
+  color: #3cc4bc;
 }
 
 .trendingdescription img {
