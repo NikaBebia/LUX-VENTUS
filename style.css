@@ -9,9 +9,12 @@ body {
   font-family: 'Poppins', sans-serif;
   max-width: 1440px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.topics {
+/* .topics {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,6 +34,27 @@ body {
 .topicscards {
   display: flex;
   gap: 10px;
+} */
+
+.topics {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1204px;
+  margin: 60px 0;
+}
+
+.topics h1 {
+  align-self: flex-start;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 48px;
+}
+
+.topicscards {
+  display: flex;
+  justify-content: space-between; 
+  width: 100%;
 }
 
 .topiccard {
@@ -106,7 +130,7 @@ body {
   width: 100%;
 }
 
-.fashion  {
+/* .fashion  {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
@@ -115,6 +139,17 @@ body {
   box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
   margin-bottom: 97px;
+} */
+
+.fashion {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 1204px;
+  box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  margin: 0 auto 97px auto; /* ცენტრირება */
 }
 
 .topside {
@@ -235,7 +270,7 @@ body {
   margin-right: 6px;
 }
 
-.trending {
+/* .trending {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -268,6 +303,40 @@ body {
   border-radius: 20px;
   box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
+} */
+
+.trending {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1204px;
+  margin: 0 auto;
+}
+
+.trendingtitle {
+  align-self: flex-start;
+  font-weight: 700;
+  font-size: 32px;
+  padding-left: 0; /* მოაშორეთ padding, რომ დაუჯდეს გასწორებას */
+  margin-bottom: 55px;
+}
+
+.trendingcards {
+  display: flex;
+  justify-content: space-between; /* ორი ბარათი თანაბრად გაიყოს */
+  width: 100%;
+  gap: 40px; /* დაშორება ორ ბარათს შორის */
+  margin-bottom: 88px;
+}
+
+.trendingcard {
+  display: flex;
+  flex-direction: column;
+  width: 48%; /* ფიქსირებული 579px-ის ნაცვლად, რომ კონტეინერში ჩაეტიოს */
+  height: auto; /* მოუხსენით ფიქსირებული 670px, ტექსტი რომ არ ჩამოიჭრას */
+  border-radius: 20px;
+  box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.15);
+  background: #ffffff;
 }
 
 .trendingbtn {
@@ -293,11 +362,18 @@ body {
   background-color: #404040;
 }
 
-.trendingimg {
+/* .trendingimg {
   width: 579px;
   height: 278 px;
   border-radius: 20px;
   margin-bottom: 23px;
+} */
+
+.trendingimg {
+  width: 100%; /* ბარათის სრულ სიგანეზე გაიშალოს */
+  height: 278px; /* დაშორების გარეშე */
+  object-fit: cover;
+  border-radius: 20px 20px 0 0; /* მხოლოდ ზედა კუთხეები დაუმრგვალდეს */
 }
 
 .trendingauthor {
@@ -371,22 +447,29 @@ body {
 
 .trendingdescription img {
   margin-right: 6px;
-}
-
   margin: o auto;
   background-color: #ffffff;
 }
 
-.main-header {
-
+/* .main-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 80px;      
   background-color: #ffffff;
+} */
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1204px; /* ზუსტად ის სიგანე, რაც სხვა მთავარ სექციებს აქვთ ფიგმაში */
+  margin: 0 auto;    /* ცენტრში მოსათავსებლად */
+  padding: 30px 0px; /* ზედა და ქვედა დაშორება, ხოლო გვერდებზე 0, რადგან მაქსიმალურ სიგანეზეა გასწორებული */
+  background-color: #ffffff;
+  box-sizing: border-box;
 }
-
-
 
 .logo .highlight {
   background-color: #4CE0D7;
@@ -581,11 +664,15 @@ body {
     background-color: #ffffff;
     max-width: 1440px;
     margin: 0 auto;
+    width: 100%;
     padding: 60px 80px 30px 80px; 
     border-radius: 40px 40px 0 0; 
     box-shadow: 0px -6px 20px rgba(0, 0, 0, 0.05); 
     box-sizing: border-box;
 }
+
+
+
 .footer-top {
     display: flex;
     justify-content: space-between;
