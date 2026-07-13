@@ -8,3 +8,34 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+.blog-author img {
+  width: 65.67385864257812px;
+  height: 50.76639175415039px;
+  top: 3789.95px;
+  left: 711.47px;
+  opacity: 1;
+ border-radius: 50%;
+ object-fit: cover;
+}
+.blog-card{
+  width: 1204px;
+  height: 368px;
+  top: 2924px;
+  left: 118px;
+  opacity: 1;
+  border-radius: 20px;
+  display: flex;
+  margin-bottom: 48px;
+  drop-shadow: #0000000D;
+
+}
+.image-box img {
+    width: 547.511474609375px;
+    height: 367.40875244140625px;
+    top: 3340.33px;
+    left: 118px;
+    opacity: 1;
+    object-fit: cover;  
+    border-radius: 20px;
+}
+
