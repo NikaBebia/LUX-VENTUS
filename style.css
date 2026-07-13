@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
@@ -13,28 +12,6 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
-/* .topics {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 1274px;
-}
-
-.topics h1 {
-  align-self: flex-start;
-  font-weight: 700;
-  font-style: Bold;
-  font-size: 32px;
-  line-height: 100%;
-  margin-bottom: 48px;
-}
-
-.topicscards {
-  display: flex;
-  gap: 10px;
-} */
 
 .topics {
   display: flex;
@@ -130,17 +107,6 @@ body {
   margin: 87px 0px 42px 0px;             
   width: 1267px;
 }
-
-/* .fashion  {
-  display: flex;
-  flex-direction: column;
-  border-radius: 20px;
-  width: 1204px;
-  height: 698px;
-  box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.15);
-  box-sizing: border-box;
-  margin-bottom: 97px;
-} */
 
 .fashion {
   display: flex;
@@ -286,42 +252,7 @@ body {
 .fashiondescription img:hover {
   transform: translateX(4px);
   color: #3cc4bc;
-} 
-
-/* .trending {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 1274px;
 }
-
-.trendingtitle {
-  align-self: flex-start;
-  font-weight: 700;
-  font-style: Bold;
-  font-size: 32px;
-  line-height: 100%;
-  padding-left: 40px;
-  margin-bottom: 55px;
-}
-
-.trendingcards {
-  display: flex;
-  align-items: center;
-  gap: 59px;
-  margin-bottom: 88px;
-}
-
-.trendingcard {
-  display: flex;
-  flex-direction: column;
-  width: 579px;
-  height: 670px;
-  border-radius: 20px;
-  box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.15);
-  box-sizing: border-box;
-} */
 
 .trending {
   display: flex;
@@ -379,13 +310,6 @@ body {
 .trendingbtn:hover {
   background-color: #404040;
 }
-
-/* .trendingimg {
-  width: 579px;
-  height: 278 px;
-  border-radius: 20px;
-  margin-bottom: 23px;
-} */
 
 .trendingimg {
   width: 100%; 
@@ -485,22 +409,14 @@ body {
   color: #3cc4bc;
 } 
 
-/* .main-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 80px;      
-  background-color: #ffffff;
-} */
-
 .main-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1204px; /* ზუსტად ის სიგანე, რაც სხვა მთავარ სექციებს აქვთ ფიგმაში */
-  margin: 0 auto;    /* ცენტრში მოსათავსებლად */
-  padding: 30px 0px; /* ზედა და ქვედა დაშორება, ხოლო გვერდებზე 0, რადგან მაქსიმალურ სიგანეზეა გასწორებული */
+  max-width: 1204px; 
+  margin: 0 auto;   
+  padding: 30px 0px; 
   background-color: #ffffff;
   box-sizing: border-box;
 }
@@ -560,7 +476,6 @@ body {
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
   cursor: pointer;
-  
 }
 
 .btn-search {
@@ -597,7 +512,6 @@ body {
   
 }
 
-
 .hero-banner {
  width: 100%;
   height: 559px;              
@@ -632,7 +546,6 @@ body {
   color: #ffffff;  
 }
 
-
 .hero-subtitle {
   display: block;
   font-family: 'Poppins', sans-serif;
@@ -652,9 +565,8 @@ body {
   color: #ffffff;
   margin-bottom: 19px;        
   max-width: 700px;
-  width: 100%;}
-
-  
+  width: 100%;
+}
 
 .hero-title .text-blue {
   background: linear-gradient(90deg, #4CE0D7 43.06%, #8BA9F4 100%);
@@ -668,7 +580,6 @@ body {
   color: #8BA9F4;
 }
 
-
 .hero-text {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -678,8 +589,6 @@ body {
   max-width: 494px;           
   opacity: 0.9;
 }
-
-
 
 .logo {
   font-family: 'Cinzel', serif;
@@ -724,8 +633,6 @@ body {
     box-sizing: border-box;
 }
 
-
-
 .footer-top {
     display: flex;
     justify-content: space-between;
@@ -739,16 +646,18 @@ body {
     align-items: center;
     gap: 20px;
 }
+
 .social-title {
     font-family: 'Poppins', sans-serif;
     font-size: 26px;
     font-weight: 700; 
 }
+
 .social-icons {
-    display: flex;
-    gap: 12px; 
+  display: flex;
+  gap: 12px; 
   }
-  .social-icon {
+.social-icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -767,17 +676,16 @@ body {
 }
 
 .footer-bottom {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 .copyright {
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    color: #262626;
-    margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #262626;
+  margin: 0;
 }
-
 
 .blog-list-section {
   padding: 60px 0;
@@ -974,7 +882,6 @@ body {
   justify-content: center;
   font-size: 20px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-  z-sizing: border-box;
   z-index: 1000;            
   transition: transform 0.2s ease;
 }
